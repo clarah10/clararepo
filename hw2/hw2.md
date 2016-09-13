@@ -333,7 +333,7 @@ ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) +
 
 1.  'i' character
 
-2.  type: dota-&gt;data
+2.  
 
 ``` r
 library(ggplot2)
@@ -351,11 +351,63 @@ library(dplyr)
     ## 
     ##     intersect, setdiff, setequal, union
 
+typo:dota-&gt;data
+
 ``` r
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy))
 ```
 
-![](hw2_files/figure-markdown_github/unnamed-chunk-24-1.png)
+![](hw2_files/figure-markdown_github/unnamed-chunk-25-1.png)
+
+typo: fliter-&gt;filter / cyl==8 (double equation for TRUE/FALSE judgement)
+
+``` r
+mpg %>% 
+  filter(cyl == 8)
+```
+
+    ## # A tibble: 70 × 11
+    ##    manufacturer              model displ  year   cyl      trans   drv
+    ##           <chr>              <chr> <dbl> <int> <int>      <chr> <chr>
+    ## 1          audi         a6 quattro   4.2  2008     8   auto(s6)     4
+    ## 2     chevrolet c1500 suburban 2wd   5.3  2008     8   auto(l4)     r
+    ## 3     chevrolet c1500 suburban 2wd   5.3  2008     8   auto(l4)     r
+    ## 4     chevrolet c1500 suburban 2wd   5.3  2008     8   auto(l4)     r
+    ## 5     chevrolet c1500 suburban 2wd   5.7  1999     8   auto(l4)     r
+    ## 6     chevrolet c1500 suburban 2wd   6.0  2008     8   auto(l4)     r
+    ## 7     chevrolet           corvette   5.7  1999     8 manual(m6)     r
+    ## 8     chevrolet           corvette   5.7  1999     8   auto(l4)     r
+    ## 9     chevrolet           corvette   6.2  2008     8 manual(m6)     r
+    ## 10    chevrolet           corvette   6.2  2008     8   auto(s6)     r
+    ## # ... with 60 more rows, and 4 more variables: cty <int>, hwy <int>,
+    ## #   fl <chr>, class <chr>
+
+typo:diamond-&gt;diamonds
+
+``` r
+diamonds %>% 
+  filter(carat > 3)
+```
+
+    ## # A tibble: 32 × 10
+    ##    carat     cut color clarity depth table price     x     y     z
+    ##    <dbl>   <ord> <ord>   <ord> <dbl> <dbl> <int> <dbl> <dbl> <dbl>
+    ## 1   3.01 Premium     I      I1  62.7    58  8040  9.10  8.97  5.67
+    ## 2   3.11    Fair     J      I1  65.9    57  9823  9.15  9.02  5.98
+    ## 3   3.01 Premium     F      I1  62.2    56  9925  9.24  9.13  5.73
+    ## 4   3.05 Premium     E      I1  60.9    58 10453  9.26  9.25  5.66
+    ## 5   3.02    Fair     I      I1  65.2    56 10577  9.11  9.02  5.91
+    ## 6   3.01    Fair     H      I1  56.1    62 10761  9.54  9.38  5.31
+    ## 7   3.65    Fair     H      I1  67.1    53 11668  9.53  9.48  6.38
+    ## 8   3.24 Premium     H      I1  62.1    58 12300  9.44  9.40  5.85
+    ## 9   3.22   Ideal     I      I1  62.6    55 12545  9.49  9.42  5.92
+    ## 10  3.50   Ideal     H      I1  62.8    57 12587  9.65  9.59  6.03
+    ## # ... with 22 more rows
 
 1.  Tools-&gt;Keyboard Shortcuts Help
+
+5.2.4 Exercises
+---------------
+
+1.

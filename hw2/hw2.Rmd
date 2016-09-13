@@ -254,4 +254,4 @@ diamonds %>%
 Tools->Keyboard Shortcuts Help
 
 ## 5.2.4 Exercises
-1.
+1. 
