@@ -247,9 +247,115 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
 3.7.1 Exercises
 ---------------
 
+1.  
+
 ``` r
 ggplot(data = diamonds) + 
   geom_bar(mapping = aes(x = cut, y = ..prop..))
 ```
 
 ![](hw2_files/figure-markdown_github/unnamed-chunk-16-1.png)
+
+``` r
+ggplot(data = diamonds) + 
+  geom_bar(mapping = aes(x = cut, y = ..prop..,group=1))
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-17-1.png)
+
+1.  According to help, by default, geom\_bar uses stat="count" which makes the height of the bar proportion to the number of cases in each group (or if the weight aethetic is supplied, the sum of the weights).
+
+3.8.1 Exercises
+---------------
+
+1.  overlapping problem
+
+``` r
+ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) + 
+  geom_point()
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-18-1.png)
+
+1.  
+
+``` r
+ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) + 
+  geom_point() + geom_jitter()
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-19-1.png)
+
+``` r
+ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) + 
+  geom_point() + geom_count()
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-20-1.png)
+
+1.  
+
+``` r
+  ggplot(mpg, aes(drv,displ)) + 
+      geom_boxplot()
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-21-1.png)
+
+3.9.1 Exercises
+---------------
+
+1.  
+
+``` r
+pie<-ggplot(data=mpg, aes(x = factor(1), fill = factor(cyl))) +
+ geom_bar(width = 1)
+pie+coord_polar(theta="y")
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-22-1.png)
+
+1.  Change axis labels and legend titles
+
+2.  3.  
+
+``` r
+ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) +
+  geom_point() + 
+  geom_abline() +
+  coord_fixed()
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-23-1.png)
+
+4.4 Exercises
+-------------
+
+1.  'i' character
+
+2.  type: dota-&gt;data
+
+``` r
+library(ggplot2)
+library(dplyr)
+```
+
+    ## 
+    ## Attaching package: 'dplyr'
+
+    ## The following objects are masked from 'package:stats':
+    ## 
+    ##     filter, lag
+
+    ## The following objects are masked from 'package:base':
+    ## 
+    ##     intersect, setdiff, setequal, union
+
+``` r
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy))
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-24-1.png)
+
+1.  Tools-&gt;Keyboard Shortcuts Help

@@ -159,8 +159,99 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
 ```
 
 ## 3.7.1 Exercises
+1.
 ```{r}
 ggplot(data = diamonds) + 
   geom_bar(mapping = aes(x = cut, y = ..prop..))
 ```
 
+
+```{r}
+ggplot(data = diamonds) + 
+  geom_bar(mapping = aes(x = cut, y = ..prop..,group=1))
+```
+
+2.
+According to help, by default, geom_bar uses stat="count" which makes the height of the bar proportion to the number of cases in each group (or if the weight aethetic is supplied, the sum of the weights). 
+
+## 3.8.1 Exercises 
+1.
+overlapping problem
+```{r}
+ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) + 
+  geom_point()
+```
+
+2.
+```{r}
+ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) + 
+  geom_point() + geom_jitter()
+```
+
+
+```{r}
+ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) + 
+  geom_point() + geom_count()
+```
+
+3.
+```{r}
+  ggplot(mpg, aes(drv,displ)) + 
+      geom_boxplot()
+```
+
+## 3.9.1 Exercises
+1.
+```{r}
+pie<-ggplot(data=mpg, aes(x = factor(1), fill = factor(cyl))) +
+ geom_bar(width = 1)
+pie+coord_polar(theta="y")
+```
+
+2.
+Change axis labels and legend titles
+
+3.
+
+4.
+```{r}
+ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) +
+  geom_point() + 
+  geom_abline() +
+  coord_fixed()
+```
+
+
+
+## 4.4 Exercises
+1. 'i' character
+
+2.
+```{r}
+library(ggplot2)
+library(dplyr)
+```
+
+typo:dota->data
+```{r}
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy))
+```
+
+typo: fliter->filter / cyl==8 (double equation for TRUE/FALSE judgement)
+```{r}
+mpg %>% 
+  filter(cyl == 8)
+```
+
+typo:diamond->diamonds
+```{r}
+diamonds %>% 
+  filter(carat > 3)
+```
+
+3.
+Tools->Keyboard Shortcuts Help
+
+## 5.2.4 Exercises
+1.
