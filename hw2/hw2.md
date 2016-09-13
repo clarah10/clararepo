@@ -194,4 +194,62 @@ ggplot() +
 
 ![](hw2_files/figure-markdown_github/unnamed-chunk-14-2.png)
 
-1.
+1.  
+
+``` r
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
+  geom_point() + 
+  geom_smooth(aes(group = drv), se = FALSE)
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-15-1.png)
+
+``` r
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
+  geom_smooth(aes(group = drv), se = FALSE) +
+  geom_point()
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-15-2.png)
+
+``` r
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy, color = drv)) + 
+  geom_point() + 
+  geom_smooth(se = FALSE)
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-15-3.png)
+
+``` r
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
+  geom_point(aes(color = drv)) + 
+  geom_smooth(se = FALSE)
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-15-4.png)
+
+``` r
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
+  geom_point(aes(color = drv)) +
+  geom_smooth(aes(linetype = drv), se = FALSE)
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-15-5.png)
+
+``` r
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
+  geom_point(size = 4, colour = "white") + 
+  geom_point(aes(colour = drv))
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-15-6.png)
+
+3.7.1 Exercises
+---------------
+
+``` r
+ggplot(data = diamonds) + 
+  geom_bar(mapping = aes(x = cut, y = ..prop..))
+```
+
+![](hw2_files/figure-markdown_github/unnamed-chunk-16-1.png)
