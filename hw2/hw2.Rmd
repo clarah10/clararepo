@@ -335,3 +335,24 @@ arrange(flights,desc(distance))
 arrange(flights,distance)
 ```
 
+## 5.4.1 Exercises
+1.
+```{r}
+select(flights, dep_time, dep_delay, arr_time, arr_delay)
+select(flights, -year:-day,-sched_dep_time,-sched_arr_time,-carrier:-time_hour)
+select(flights,matches("._."),-contains("sched"),-air_time,-time_hour)
+```
+
+2.
+```{r}
+select(flights, dep_time, dep_time, dep_delay,dep_delay, arr_time, arr_delay)
+```
+
+3.
+```{r}
+attach(flights)
+vars<-c("dep_time", "dep_delay", "arr_time", "arr_delay")
+select(flights,one_of(vars))
+```
+
+## 5.5.2 Exercises
