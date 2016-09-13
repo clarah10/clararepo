@@ -255,3 +255,43 @@ Tools->Keyboard Shortcuts Help
 
 ## 5.2.4 Exercises
 1. 
+i.
+```{r}
+flights %>% filter(arr_delay >= 120)
+```
+
+ii.
+```{r}
+flights %>% filter(dest=="IAH"|dest=="HOU")
+```
+
+iii.
+```{r}
+flights %>% filter(carrier=="UA"|carrier=="AA"|carrier=="DL")
+```
+
+iv.
+```{r}
+flights %>% filter(month==7|month==8|month==9)
+```
+
+v.
+```{r}
+flights %>% filter(arr_delay >= 120 & dep_delay<=0)
+```
+
+vi.
+```{r}
+flights %>% filter(dep_delay >= 60 & dep_delay-30>=arr_delay)
+```
+
+vii.
+```{r}
+flights %>% filter(0<=dep_time & dep_time<=600)
+```
+
+2.
+```{r}
+flights %>% filter(between(flights$dep_time,0,600))
+```
+
