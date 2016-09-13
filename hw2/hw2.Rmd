@@ -295,3 +295,43 @@ flights %>% filter(0<=dep_time & dep_time<=600)
 flights %>% filter(between(flights$dep_time,0,600))
 ```
 
+3.
+8255
+```{r}
+flights %>% filter(is.na(dep_time))
+```
+
+dep_delay, arr_time, arr_delay also missing
+
+involved in accident(cannot find blackbox as well)
+
+4. 
+
+## 5.3.1 Exercises
+1.
+```{r}
+arrange(flights,desc(is.na(dep_time)))
+```
+
+2.
+```{r}
+arrange(flights,desc(dep_delay))
+arrange(flights,desc(arr_delay))
+```
+Most delayed for depature and arrival respectively
+
+```{r}
+arrange(flights,dep_time)
+```
+
+3.
+```{r}
+arrange(flights,air_time)
+```
+
+4.
+```{r}
+arrange(flights,desc(distance))
+arrange(flights,distance)
+```
+
