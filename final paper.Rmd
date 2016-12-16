@@ -1,0 +1,371 @@
+---
+title: "'How Do Racial Issues Affect Voters’ Political Interest and Ideological Polarization?"
+author: "Ji-Yeon Hong"
+date: "Dec 15 2016"
+output: html_document
+bibliography: bibliography.bib
+---
+
+# 1. Introduction
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The question of whether American voters are well informed or not about the electoral process has been explored by a number of researchers. This issue is important because in a democracy citizens are expected to make voting decisions, evaluating candidates based on their knowledge of a candidate’s policy positions and job performance. As recognized by Thomas Jefferson, the success or failure of representative democracy lies in an informed citizenry capable of understanding the problems of the public and making an educated choice in the voting booth. Based on this normative question, this study suggests under which condition the voters are more motivated to enhance their political knowledge and participated in political process more actively.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; However, a long line of scholars have founds often not make informed decisions and ideological consistency [@bartels2008; @campbell1960; @lau1997]. In a seminal work on this issue, the Michigan School of the American Voter authors, Angus Campbell et al [-@campbell1960] claimed that most voters did not own ideological consistency and high-level of conceptualization about conservatism and liberalism. According to the interviews they conducted, only 2.5% of the respondents were categorized as “Pure Ideologues” who have the highest level of conceptualization. And about a half of respondents (46.5%) were classified as “Nature of Items” or “No Issue Content” who have the lowest level of conceptualization.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; At the same time, research in political behavior has also paid attention to the role of media. Many studies have examined the factors that condition frequency of citizens’ searching for news, or political interest [@carpini1996; @prior2005]. Generally, an underlying assumption is that if citizens possess high level of education and political knowledge, they are more likely to be exposed to media. In other words, education and political knowledge level determines the frequency of searching news through media, but they also determines whether voters can evaluate candidates, make choices consistent with their preferences and have consistent ideological preferences. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Much of previous research in the media and politics, as well as voting and elections, overlooks the importance of issue saliency. If a political or policy issue becomes highly salient and remarkable in one’s thought, the individual may become more interested in politics and elections. This study focuses on racial issues as a driving force to encourage people to accept messages from media and political campaigns. Racial policy issues are easily accessible to a large number of voters, and highly salient, and have attracted broad range of voters through past years. Tesler and Sears [-@tesler2010] argued that in 2008 Presidential election, the race was more accessible cues for both of Obama supporters and opponents. And they also claimed that there was ‘spill-over effect’ which made people having strong opinions on racial issues are also encouraged to have strong opinions on non-racial issues. Based on this, in this study I suggest that racial issues may be uniquely possible of encouraging individuals to obtain media information and get involved in political events. And those who obtain more political news should make more informed candidate choices.
+
+# 2. Literature Review
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Campbell et al[-@campbell1960] found that most Americans, 85% of them, do not think consistently about policies using a political ideology. The Michigan School took a leading role in presenting empirical evidence proving that voters are very volatile and ignorant. They categorized voters into Ideologues, Near-Ideologues, Group Interest, Nature of the Times, and No Issue Content according their level of conceptualization. Ideologues and Near-Ideologues made up just 15% of the American population, with the rest not thinking, consistently about politics or policy issues in terms of an ideology. Converse et al., found out that voters with low levels of conceptualization (non-ideological thinkers) did not properly match the two major parties with their policies and did not have a broad understanding of the terms ‘conservative’ and ‘liberal’. Voters with low levels of conceptualization also showed low correlation between their occupational status and vote preference. In addition, the mass public owned low stability in their opinions about several domestic policies compared with political elite groups. This kind of pattern gets more extreme if the policy is not about a distinctive social group. For example, low conceptualization voters showed more consistent opinions concerning school segregation than federal aid to education or federal housing. This is because the former policy is about a special group – African Americans -, while the latter ones cover a broad demographic. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; While Michigan school studied overall level of ideological consistency of American voters, Zaller[-@zaller1992] showed how the public opinion can be easily shaped by framing, introducing the media factor. He categorized each voter according to the level of political awareness. By doing so, he differentiated the level of media impact by the voters’ types. According to Zaller’s RAS model, those who have low level of political awareness are not much exposed to campaign messages because they are not interested in politics. Thus for them, campaign does not matter much. And for those who have very high level of political awareness, campaign also does not matter. This is because those people have already positioned themselves on each issue through their strong ideological consistency. Therefore, their ideology functions as a strong filter when they receive messages. In contrast, most of citizens who have middle level of political awareness do not possess as strong ideological consistency as those with high level of political awareness. However, those middle-levels are still very interested in politics and they pay much attention to media and campaign. And if the messages from one side dominate the messages from other side, such voters would decide their minds toward the former. So they are really vulnerable to framing effect. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In contrast, Page and Shapiro [-@page1992] argued that in the aggregate, American voters are not so volatile in their opinions about policies and that support for many policies changes slowly. They analyzed Gallup and Roper public opinion polls from 1935 to 1990. Among 10,000 surveys about public opinion on diverse policy issues, 473 surveys were repeated frequently during this time. Among these repeated surveys, 58% showed no statistically significant changes in public opinion at any time period. And 20% or 30% change in public opinion occurred only very gradually over this time period. Page and Shapiro claimed that this evidence is a counterexample to those allegations that voters are very volatile in their opinions. Rather, public opinion about politics and issues is generally stable, or changes gradually over time.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unlike the aggregate level analysis conducted by Page and Shapiro [-@page1992], McGraw [-@mcgraw1990] employed an individual-level analysis in order to investigate whether voters accept messages from political campaigns and utilize it in voting decisions. They argued that voters generally have very reasonable bases for selecting a candidate. The problem is that voters just forget the details about party platform, candidate’s policy and campaign messages after they once acquired such information. Voters just retain a summary of the information served in so called OL Tally, because their long-term memory is constrained. Lodge et al [-@lodge1995] conducted an experiment to prove this theory. In the experiment, they offered subjects a campaign fact sheets, which include both the gist and specifier of policies of each hypothetical candidate, to subjects. The result of this experiment showed that almost 80% of respondents could not recall the specifier, 60.7% of them could not recall any gist of policies, and 54% of them could not even recall any one issue or policy itself. However, they argue that the memory of candidate evaluation done through accepting political message lasts longer compared with the memory of message itself. If respondents with strong Democratic Party identification are given the information that a hypothetical Democratic Party candidate does not follow the major opinion in that party (for example, the candidate opposes to abortion), respondents are more likely to give negative evaluation to the candidate. Such a pattern was generally shown in most of respondents even though they do not exactly remember the substance of policies of each candidate. Through this experimental result, Lodge concluded that voters’ candidate evaluation is done with reasonable causes by accepting messages from political campaigns, even though they are not able to recall the exact reasons of their judgment.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lau and Redlawsk [-@lau1997] also conducted an experiment in order to look at the impact of campaigns on voter behavior. The subjects were forced to register in one of a hypothetical primary election and they watched the ads. After watching the ads, they cast a vote for one candidate. The researchers then presented each candidate’s profile and policy platforms to the subjects through a computer. After this, subjects were required to make vote choice again. If there was no change between the subject’s first and second choice, it was concluded that the first choice was an optimal voting choice by the participant. This result shows that if voters have more opportunity to get information, they utilize it effectively in the way to improve their interest. The voters who have short-cuts or heuristics even follow the behavior of those who have complete information. In other words, the short-cuts help voters to make decisions consistently with their underlying preferences.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Instead of focusing on the wording of message, partisanship or media, Valentino et al [-@valentino2002] claims that subtle racial cue through visual images can activate racial attitudes of voters and ultimately affect their voting decision. They showed that if voters get those messages, such as emphasizing the failure of welfare system with the images of black people getting government aid, voters will choose their candidate primarily according to the level of their racial resentment. And the ad also shows the visual images of typical white middle-class family playing happily in a playground. The ad does not mention about the other candidate but the opposite candidate comes from minority group. In such a case, some conservative white voters will necessarily imagine that the opposite candidate will not care much about the ‘law and order’ because the opposite candidate will care about just black people, who are the main causes of crimes according to their thought.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pantoja and Segura [-@pantoja2003]’s research implies more active voters in general than Zaller [-@zaller1992]’s model. In Fear and Loathing in California, they argued that even unsophisticated voters do not always remain as low-informed. If their interest is severely threatened and in danger, they pay more attention to policies directly related with their interest. Proposition 187, which strictly limited giving medical insurance and providing welfares to undocumented immigrants, encouraged naturalized Latinos to enhance their political knowledge than native-born Latinos in California or their co-ethnics in Texas. And I think such an increased knowledge is primarily due to the role of media than other alternatives. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As I mentioned of above, there have been two opposite sides of arguments regarding the role of media. While some research focused more on the framing or priming effect of media, which makes voters more volatile [@zaller1992], other research [@lau1997; @mcgraw1990] emphasized that citizens have abilities of utilizing the information given by media in order to enhance their political knowledge and increase their utility. Based on these long debates, this study argues that if a racial issue becomes more salient, this will motivate voters to search for news and participate in political process more actively. And the effect of learning information through media will be stronger compared with the framing effect of media. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then what kind of issues are racial issues? Kinder and Sears [-@kinder1981] tried to extend the scope of racism by introducing the concept of symbolic racism. They claimed that not only direct threat by racial minorities but also morally-charged thought induces whites to have anti-black attitudes. Direct threats are economic competition with blacks, neighborhood desegregation and interracial social contact, actual racial busing threat and black violence. In contrast, morally-charged thoughts are like this; most Negroes/blacks who receive money from welfare programs could get along without it if they tried, or do they really need the help; it is wrong to set up quotas to admit black students to college who do not meet the usual standards; it is wrong to provide free abortions for the poor ("if blacks behaved morally, they would not need abortions"), and so on. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since in 2008 Presidential election, the African American candidate, Obama, ran a race, we can easily infer that those kinds of racial issues would be more accessible to voters. And this would lead voters to be more interested in politics and search news actively through media. And as a result, more voters who searched the news through media would be more ideologically consistent, “learning through media”. This argument is also consistent with the spill-over effect of Tesler and Sears [-@tesler2010]; voters who are more polarized on racial issues would be also polarized on non-racial issues. The contribution of this study is to introduce the role of media (learning effect) into the racial issue saliency suggested by Tesler and Sears. 
+
+# 3. Hypotheses and Empirical Model
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Through the above previous results, we can say that media takes some role and it encourages voters to think about several issues and use it as their bases for decision-making. However, voters cannot pay their attention to all the issues covered by media simultaneously and equally. If a certain issue gets more salient to voters, then it will drive voters to pay attention to other issues and even offer a cue or short-cut for judging other issues. In Judging Politicians, Gabriel Lenz [-@lenz2012] argues that voters usually select their preferred candidate first, and then take their positions on diverse policy issues following the candidate’s positions. Then which factor affects voters’ selection on their preferred candidate? According to Lenz, voters select their preferred candidate not based on issues but based on candidate’s performance such as job approval and economic conditions. Although he argued that voters do not select their candidates based on issue and policy, he admitted that voters become ideologically more consistent after they select their preferred candidate. And I think a distinctive issue can affect voters to select their most preferred candidate and drive them to align with him on other issues. Then what can be a distinctive issue? 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Carmines and Stimson [-@carmines1980] give an answer to this question. They classified political issues into two categories; easy issue and hard issue. Easy issues should contain three characteristics; 1) they have been constantly discussed from long ago, 2) they are emotionally charged and 3) they concern more about political ends than means. So based on these criteria, racial issues can be classified as an easy issue. And I think racial issue, as an easy issue, is an important driving force to encourage voters to pay more attention to media and get more involved in political events. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The underlying theory in my paper is that if one issue becomes salient among voters in an election, voters would have more consistent opinions on this issue. And I think such a phenomenon will encourage voters to be more interested in politics. If they become more interested in politics, they will be more exposed to media and more actively participate in elections. And I think racial issues will enjoy this role in particular, because these issues possess the characteristics of easy issues.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; And this study will also examine the effect of media on overall level of ideological polarization. As I mentioned above, Tesler and Sears [-@tesler2010] argued that voters polarized on racial issues also became polarized on non-racial issues in 2008 Presidential election (spill-over effect). So this process allows voters to better understand the ideological conceptualization, which Convserse [-@converse1964] suggested. Therefore, voters’ ideological polarization will be stronger if they learn politics through media and political participation, which is motivated by racial issue saliency. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Therefore, the purpose of this study is to examine the following three hypotheses.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Hypothesis 1**: If voters become more polarized on racial issues, they will be more interested in election, and they will be more exposed to media. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Hypothesis 2**:  If voters become more polarized on racial issues, they will be more interested in election, and more likely to participate in campaign. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Hypothesis 3**: If voters are more exposed to media, they will learn more about politics and better understand the conceptualization of ideology. Thus voters are more ideologically polarized. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; So, the empirical model in this paper consists of two-steps. First step is to investigate whether racial issues drive voters to pay more attention to politics. In this step, the dependent variables are the frequency of searching news through media and the level of political participation. Second step is to investigate whether the frequency of searching news through media affect voters’ candidate selections. Here, the dependent variable is overall ideological polarization.
+
+
+# 4. Data
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This study uses a cumulative American National Election Studies (ANES) data. The data used here includes only the presidential election years and does not include the midterm election years. The time period is from 1972 to 2008. The reason why I use this data for this study is that the ANES data is a large data set so it includes all the required variables for this study. Moreover, ANES survey is regularly conducted both for pre-election and post-election. Therefore, I can clarify the causal relationship by utilizing the time difference. My first hypothesis is that if voters are more polarized on racial issues, they will be more interested in politics and more exposed to media. However, media also influence voter’s issue position. Therefore, the relationship between them in the real world is reciprocal rather than unilateral. So in order to figure out the effect of opinion about racial issues on the frequency of searching news through media, the opinion should be measured before they search news through media. In ANES data, opinions on diverse political issues were measured during pre-election, and the frequency of searching news through media and political participation were measured during post-election. Therefore, we can validate the causal relationship from opinions on racial issues to the frequency of searching news through media, not vice versa. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As I mentioned above, the time period is from 1972 to2008. The number of data sets used in my study is two. The first one is the cumulative ANES data from 1972 to 2004. The second data set is the 2008 ANES data. By comparing and analyzing the results from these two data sets, we can figure out how much racial issues encouraged political interest in presidential election and how media affected voting decisions for each period.[^1]
+
+[^1]:  By comparing the results from cumulative data (from 1972 to 2004) and that from 2008 data, we can briefly figure out how much racial issues derived political interest in 2008 presidential election rather than previous presidential elections throughout the late 20th century of U.S history. However, there exists a limitation on directly comparing these two results, because the standard deviations of each variable from the cumulative data set and from the individual 2008 data set would be quite different. Therefore, we need to check and compare the summary statistics of cumulative data and 2008 data before the analysis.
+
+# 5. Operationalization of Variables 
+## 5.1. Dependent Variables
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **The Frequency of Searching News through Media**: One of the dependent variables in the first-step model is the frequency of searching news through media.  This variable is made up of 2 questionnaires. Each questionnaire asked whether respondents watched TV and/or read magazine or newspapers about the campaign.[^2] Through these questions, two distinctive dummy variables, which measured whether respondents watched TV, or read magazine/newspapers about the campaign, are created. If a respondent watched TV, or read magazine/newspapers, 1 is assigned for each variable. If they did not, 0 is assigned. And by adding up these two variables, the scale of this independent variable ranges from 0 to 2. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Political Participation**: The other dependent variable in the first-step model is political participation.  This variable is made up of 5 questionnaires. Each questionnaire asked whether respondents tried to influence other peoples’ vote, attended political meetings/rallies, worked for a party or a candidate, displayed candidate button/sticker and donated money to a party or a candidate. Through these questions, five distinctive dummy variables which measured whether respondents enjoyed those activities or not are created. If a respondent participated in those activities, 1 is assigned. If they did not, 0 is assigned. And by adding up these five variables, the scale of political participation ranges from 0 to 5. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Overall Level of Ideological Polarization**: The dependent variable in the second step is overall level of ideological polarization. This variable was measure through the absolute distance of feeling thermometer between conservatives and liberals. As this distance gets bigger, we assume that the overall level of ideological polarization gets bigger.
+
+[^2]: I used these questions instead of using those questions such as “How many campaign programs on TV did you watch?” or “How many campaign articles in magazines did you read?” The reason why I used the questionnaire just asking whether respondents watch TV (listen to radio/read magazines/read newspapers) or not is that the scale should be uniform and consistent across different variables when we add up those variables. If we just add up the hours respondents spend in watching TV, listening to radio, and reading magazines and newspaper, we should assume that the effect of each hour of being exposed to media is same across different types of media. This is a very strong assumption and non-realistic. Therefore, I used the questionnaire just asking whether respondents are exposed to several types of media or not. Through these questionnaires, we can measure how many different and diverse types of media the respondents are exposed to.
+
+## 5.2. Independent Variables
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Ideological distance on racial issues**: In order to measure the ideological polarization on racial issues, I generated the ‘Ideological Distance on racial issues’ variable. I used two survey questionnaires to generate this variable. The first question concerns the respondent’s opinion about guaranteed jobs and income; “Some people feel that the government in Washington should see to it that every person has a job and a good standard of living (1 point). Others think the government should just let each person get ahead on his/their own (7 point). Where would you place yourself on this scale?” As Martin Gilens [-@gilens1999] and Kinder and Sears [-@kinder1981] claimed, government welfare program is closely related with race. So this questionnaire can be classified into a racial issue. The second question concerns the respondent’s opinion about aid to blacks and other minority groups; “Some people feel that the government in Washington should make every possible effort to improve the social and economic position of blacks and other minority groups (1 point). Others feel that the government should not make any special effort to help minorities because they should help themselves (7 point). Where would you place yourself on this scale?” 1 point of these two questionnaires represents strongly liberal position, while 7 point of these two questionnaires represents strongly conservative position. I calculated the absolute distance of these two values. If the value of the distance is high, the respondent has relatively less polarized ideology. If the value of the distance is low, the respondent has relatively more polarized ideology.
+
+##5.3. Control Variables 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Ideological distance on non- racial issues**: In order to measure the ideological polarization on non-racial issues, I generated the ‘Ideological Distance on non-racial issues’ variable. I used two survey questionnaires to generate this variable. The first question concerns the respondent’s opinion about military defense; “Some people feel that we should spend much less money for defense (1 point). Others think defense spending should be greatly increased (7 point). Where would you place yourself on this scale?” The second question concerns the respondent’s opinion about gender role; “Some people feel that Women should have an equal role with men in running business, industry and government (1 point). Others feel that a women's place is in the home (7 point).  Where would you place yourself on this scale?” 1 point of these two questionnaires represents strongly liberal position, while 7 point of these two questionnaires represents strongly conservative position. I calculated the absolute distance of these two values. If the value of the distance is high, the respondent has relatively less polarized ideology. If the value of the distance is low, the respondent has relatively more polarized ideology. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **PID strength**: I coded the respondents with strong Democrat or Republican identifiers as 4. Weak Democrat or Republican identifiers were coded as 3. Independent Democrat or Republican identifiers were coded as 2.  Pure independents were coded as 1.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Age**: I used the ANES age group variable, which scales from 1 (17-24) to 7 (75 and over).
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Female**: 1 is assigned if a respondent is female and 0 is assigned if a respondent is male.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **African-American**: 1 is assigned if a respondent is African-American and 0 is assigned if a respondent is white. All other ethnic groups are removed.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Education**: I used the ANES education4-category variable, which scale from 1 to 4. 1 is assigned for those with grade school or less, 2 is assigned for those with high school education level, 3 is assigned for those with some college level, and finally 4 is assigned for those with college or advanced degree) 
+
+## 6. Results
+
+```{r, echo=FALSE, eval=FALSE}
+install.packages("icpsrdata")
+install.packages("pastecs")
+install.packages("dplyr")
+install.packages("MASS")
+library(icpsrdata)
+setwd("/Users/jiyeonhong/Downloads")
+icpsr_download(file_id=8475, email = getOption("jiyeon-hong@uiwoa.edu"), 
+               password = getOption("rainbow10"))
+
+library(dplyr)
+library(foreign)
+library(pastecs)
+library(MASS)
+mydata<-read.dta("icpsr_data/ICPSR_08475/DS0001/08475-0001-Data.dta")
+mydata1<-mydata
+mydata1$tv<-as.numeric(mydata1$VCF0724)
+mydata1$megaz<-as.numeric(mydata1$VCF0727)
+mydata1$influ<-as.numeric(mydata1$VCF0717)
+mydata1$attend<-as.numeric(mydata1$VCF0718)
+mydata1$workpar<-as.numeric(mydata1$VCF0719)
+mydata1$sticker<-as.numeric(mydata1$VCF0720)
+mydata1$donate<-as.numeric(mydata1$VCF0721)
+mydata1$pid<-as.numeric(mydata$VCF0301)
+mydata1$age<-as.numeric(mydata$VCF0102)
+mydata1$female<-as.numeric(mydata$VCF0104)
+mydata1$black<-as.numeric(mydata$VCF0106)
+mydata1$edu<-as.numeric(mydata$VCF0110)
+
+mydata1<-mydata1%>%
+  mutate(tv=ifelse(between(tv, 2, 3), tv-2, NA),
+         megaz=ifelse(between(megaz, 2, 3), megaz-2, NA),
+         media=tv+megaz,
+         influ=ifelse(influ==1, NA, ifelse(influ==2,0,1)),
+         attend=ifelse(attend==1, NA, ifelse(attend==2,0,1)),
+         workpar=ifelse(workpar==1, NA, ifelse(workpar==2,0,1)),
+         sticker=ifelse(sticker==1, NA, ifelse(sticker==2,0,1)),
+         donate=ifelse(donate==1, NA, ifelse(donate==2,0,1)),
+         participate=influ+attend+workpar+sticker+donate,
+         ideopol=abs(VCF0211-VCF0212),
+         spend=ifelse(between(VCF0809, 1, 7), VCF0809, NA),
+         help=ifelse(between(VCF0830, 1, 7), VCF0830, NA),
+         id.dis.race=abs(spend-help),
+         defense=ifelse(between(VCF0843, 1, 7), VCF0843, NA),
+         women=ifelse(between(VCF0834, 1, 7), VCF0834, NA),
+         id.dis.nonrace=abs(defense-women),
+         pid=ifelse(between(pid, 2, 8), pid-1, NA),
+         pidstr=ifelse(pid==1|pid==7, 4, ifelse(pid==2|pid==6, 3,
+                                                ifelse(pid==2|pid==5, 2, 1))),
+         age=ifelse(between(age, 2, 8), age-1, NA),
+         female=ifelse(between(female, 2, 3), female-2, NA),
+         black=ifelse(between(black, 2, 3), black-2, NA),
+         edu=ifelse(between(edu, 2, 5), edu-1, NA)
+         )
+
+table(mydata1$tv)
+table(mydata1$megaz)
+table(mydata1$media)
+table(mydata1$influ)
+table(mydata1$attend)
+table(mydata1$workpar)
+table(mydata1$sticker)
+table(mydata1$donate)
+table(mydata1$participate)
+range(mydata1$ideopol, na.rm=T)
+table(mydata1$id.dis.race)
+table(mydata1$id.dis.nonrace)
+table(mydata1$pid)
+table(mydata1$pidstr)
+table(mydata1$age)
+table(mydata1$female)
+table(mydata1$black)
+table(mydata1$edu)
+
+attach(mydata1)
+subdata<-as.data.frame(cbind(media, participate, ideopol, id.dis.race, id.dis.nonrace, pidstr, age, female, black, edu))
+disc1<-stat.desc(subset(subdata, VCF0004 < 2008))
+disc2<-stat.desc(subset(subdata, VCF0004 == 2008))
+write.table(disc1, file = "tab1.csv", sep = ",", qmethod = "double")
+write.table(disc2, file = "tab2.csv", sep = ",", qmethod = "double")
+
+mod1<-polr(as.factor(media)~id.dis.race+id.dis.nonrace+pidstr+age+female+black+edu, data=mydata1[VCF0004<2008,])
+write.table(summary(mod1)$coef, file="tab3.csv", sep = ",", qmethod = "double")
+
+mod2<-polr(as.factor(media)~id.dis.race+id.dis.nonrace+pidstr+age+female+black+edu, data=mydata1[VCF0004==2008,])
+write.table(summary(mod2)$coef, file="tab4.csv", sep = ",", qmethod = "double")
+
+mod3<-polr(as.factor(participate)~id.dis.race+id.dis.nonrace+pidstr+age+female+black+edu, data=mydata1[VCF0004<2008,])
+write.table(summary(mod3)$coef, file="tab5.csv", sep = ",", qmethod = "double")
+
+mod4<-polr(as.factor(participate)~id.dis.race+id.dis.nonrace+pidstr+age+female+black+edu, data=mydata1[VCF0004==2008,])
+write.table(summary(mod4)$coef, file="tab6.csv", sep = ",", qmethod = "double")
+
+id.dis.race<-seq(0,6,1)
+id.dis.nonrace<-mean(mydata1[VCF0004==2008,]$id.dis.nonrace, na.rm=TRUE)
+pidstr<-mean(mydata1[VCF0004==2008,]$pidstr, na.rm=TRUE)
+age<-mean(mydata1[VCF0004==2008,]$age, na.rm=TRUE)
+female<-mean(mydata1[VCF0004==2008,]$female, na.rm=TRUE)
+black<-mean(mydata1[VCF0004==2008,]$black, na.rm=TRUE)
+edu<-mean(mydata1[VCF0004==2008,]$edu, na.rm=TRUE)
+partsim<-cbind(id.dis.race, id.dis.nonrace, pidstr,age,female,black, edu)
+part.hat<-predict(mod4,partsim,type='probs')
+
+
+jpeg('rplot.jpg')
+plot(c(0,6), c(0,1), type='n', xlab="ideological inconsistency in racial issues", ylab='Fitted Probability')
+lines(0:6, part.hat[1:7, 1], lty=1, lwd=2, col="red")
+lines(0:6, part.hat[1:7, 2], lty=1, lwd=2, col="orange")
+lines(0:6, part.hat[1:7, 3], lty=1, lwd=2, col="yellow")
+lines(0:6, part.hat[1:7, 4], lty=1, lwd=2, col="green")
+lines(0:6, part.hat[1:7, 5], lty=1, lwd=2, col="blue")
+lines(0:6, part.hat[1:7, 6], lty=1, lwd=2, col="purple")
+legend(x="topleft", 
+        legend=c(0:5),
+        col=c("red","orange", "yellow", "green", "blue", "purple"), lty=c(rep(1,7)), lwd=c(rep(2,7)))
+dev.off()
+
+
+mod5<-lm(ideopol~media+participate+id.dis.race+id.dis.nonrace+pidstr+age+female+edu,data=mydata1[VCF0004<2008,])
+write.table(summary(mod5)$coef, file="tab7.csv", sep = ",", qmethod = "double")
+
+mod6<-lm(ideopol~media+participate+id.dis.race+id.dis.nonrace+pidstr+age+female+edu,data=mydata1[VCF0004==2008,])
+write.table(summary(mod6)$coef, file="tab8.csv", sep = ",", qmethod = "double")
+```
+
+
+<br>
+**Table 6.1 Summary statistics for variables before 2008**
+```{r, echo=FALSE, results='asis'}
+
+setwd("/Users/jiyeonhong/Downloads")
+
+library(knitr)
+library(xtable)
+
+t1 <- t(as.data.frame(read.table("tab1.csv", header = TRUE, sep = ",", row.names = 1)))
+t1<-kable(t1[c(1:10),c(9,13)])
+
+t1
+```
+
+<br>
+**Table 6.2 Summary statistics for variables in 2008**
+```{r, echo=FALSE, results='asis'}
+
+setwd("/Users/jiyeonhong/Downloads")
+
+library(knitr)
+library(xtable)
+
+t2 <- t(as.data.frame(read.table("tab2.csv", header = TRUE, sep = ",", row.names = 1)))
+t2<-kable(t2[c(1:10),c(9,13)])
+
+t2
+```
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Table 6.1 and 6.2 show the descriptive statistics of each variable, which is used for this study, across different time periods. Overall, there are less difference of standard deviation between the cumulative data set and 2008 data set. This is even true for searching news through media, participation, ideological distance between racial issues, and ideological distance between non-racial issues. Because these four variables are newly operationalized and generated for the purpose of this study - which means that they are created by adding up several variables in data set, not directly coded from ANES questionnaire itself -, whether it is possible to directly compare those variables across different time periods would be questionable. However, the tables above show that standard deviation of these four variables between two datasets are quite similar. Thus we can find out more reasonable basis to compare the cumulative data and 2008 data.
+<br>
+
+**Table 6.3 Ordered Logit Model of Searching for News through Media before 2008**
+```{r, echo=FALSE, results='asis'}
+
+setwd("/Users/jiyeonhong/Downloads")
+
+library(knitr)
+library(xtable)
+
+t3 <- read.table("tab3.csv", header = TRUE, sep = ",", row.names = 1)
+t3 <- kable(t3[1:7,])
+t3
+```
+
+<br>
+
+**Table 6.4 Ordered Logit Model of Searching for News through Media in 2008**
+```{r, echo=FALSE, results='asis'}
+
+setwd("/Users/jiyeonhong/Downloads")
+
+library(knitr)
+library(xtable)
+
+t4 <- read.table("tab4.csv", header = TRUE, sep = ",", row.names = 1)
+t4 <- kable(t4[1:7,])
+t4
+```
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Table 6.3 and 6.4 shows the ordered logit analysis results. Here, the dependent variable ‘the frequency of searching news through media’ scales from 0 to 2. As I mentioned in operationalizaion of variables above, this variable was created by adding up watching TV and reading megazines/newspaers variables. Thus we cannot just assume that the intervals between scales are exactly same in this variable. This is the reason why I used ordered logit model to prove my hypothesis 1. The coefficient of ‘ideological distance between racial issues’ is not statistically significant for both cumulative data and 2008 data. 
+
+<br>
+
+**Table 6.5 Ordered Logit Model of Participation before 2008**
+```{r, echo=FALSE, results='asis'}
+
+setwd("/Users/jiyeonhong/Downloads")
+
+library(knitr)
+library(xtable)
+
+t5 <- read.table("tab5.csv", header = TRUE, sep = ",", row.names = 1)
+t5 <- kable(t5[1:7,])
+t5
+```
+
+<br>
+
+**Table 6.6 Ordered Logit Model of Participation in 2008**
+```{r, echo=FALSE, results='asis'}
+
+setwd("/Users/jiyeonhong/Downloads")
+
+library(knitr)
+library(xtable)
+
+t6 <- read.table("tab6.csv", header = TRUE, sep = ",", row.names = 1)
+t6 <- kable(t6[1:7,])
+t6
+```
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Table 6.5 and 6.6 show the results of ordered logit analysis to prove the relationship between political participation and ideological distance on racial issues. The coefficient of the ‘ideological distance on racial issues’ is statistically significant both in cumulative data and 2008 data. However, the coefficient of this variable is larger in 2008 rather than in cumulative data. This effect holds, even when control variables are introduced. Thus we can confirm the hypothesis 2. The coefficient of ‘ideological distance on non-racial issues’ is not statistically significant in both of the two data sets. Non-racial issues are not a driving force, which encourage voters to be more interested in politics.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The reason why the coefficient of ‘ideological distance between racial issues’ is more influential in 2008 presidential election can be found in the fact that in this election Obama became the first African-American major party nominee throughout the U.S. history. Tesler and Sears [-@tesler2010] argues that Obama’s race itself made voters more polarized on racial resentment and this attitude also affected voting decisions. From this, we can infer that Obama’s race also strengthened the independent triggering effect of racial issues on the frequency of participating in political activities. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By the way, unlike regression model, the coefficient of each variable in ordered logit model cannot be intuitively interpreted. So Figure 6.1 shows the predicted probability of political participation depending on ideological distance between racial issues.
+
+![Figure 6.1 Predicted Probability of Political Participation across ideological distance on racial issues](https://github.com/clarah10/clararepo/blob/master/rplot.jpg)
+
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As we can see the Figure 6.1 above, the strong threshold would be located between when the political participation degree is 0 and 1. Unlike the ease of access toward media, if voters are going to participate in a certain political event, it takes much more time and effort to do so. The political participation variable includes whether the respondent tried to influence other peoples’ vote, attended political meetings/rallies, worked for a party or a candidate, displayed candidate button/sticker and donated money to a party (or a candidate) or not. These activities sometimes require more background knowledge about politics too. People, who are going to influence other peoples’ vote, attend political meetings, or work for a party or a candidate, should comprehend each candidate’s polices to some degree before they actually enjoy those activities. Therefore political participation requires people of passionate attitude ad preliminary knowledge about politics. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As a result, there is a strong threshold between when the political participation degree is 0 and 1. Voters feel much burden of participating in at least one political event. This means that people who do not yet participate in any political event would join it, if there is a strong driving force. The result of my study shows that racial issue saliency can take this role. If voters are aware of the importance of racial policies and get more ideologically polarized in racial issues, they will move from not participating to participating in at least one political event. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Through ordered logit models presented above, we can accept hypothesis 2 but not hypothesis 1. If voters are more ideologically polarized on racial issues, this triggers them to more actively participate in politics. But this does not make voters search more news through media. This results imply that ideological polarization on racial issues motivates people to influence the political outcomes directly raather than motivating them to update new information about politics. People becomes more passionate political actors rather than political experts. 
+<br>
+
+**Table 6.7 Regression Model of Overall Ideological Polarization before 2008**
+```{r, echo=FALSE, results='asis'}
+
+setwd("/Users/jiyeonhong/Downloads")
+
+library(knitr)
+library(xtable)
+
+t7 <- read.table("tab7.csv", header = TRUE, sep = ",", row.names = 1)
+t7 <- kable(t7)
+t7
+```
+
+<br>
+**Table 6.8 Regression Model of Overall Ideological Polarization in 2008**
+```{r, echo=FALSE, results='asis'}
+
+setwd("/Users/jiyeonhong/Downloads")
+
+library(knitr)
+library(xtable)
+
+t8 <- read.table("tab8.csv", header = TRUE, sep = ",", row.names = 1)
+t8 <- kable(t8)
+t8
+```
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Finally, this study is to examine hypothesis 3 by using OLS model. Table 6.7 and 6.8 show that media does not have a statistically significant effect on ideological polarization in both cumulative elections and 2008 presidential election. Political participation influenced the overall ideological polarization and conceptualization in both cumulative and 2008 Presidential elections. Since the coefficients are positive, we can say that if voters participate in political process more, they tend to be more ideologically polarized and highly conceptualized overall. The noteworthy finding is that the coefficient of ideological distance on racial issues was statistically significant in 2008, but not in cumulative data. From these results, we can say that voters are more ideologically polarized in 2008 through political participation, which is triggered by racial issue saliency and their polarized opinions on this issue. 
+
+## 7. Conclusions
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This study examined the role of racial issues on the frequency of searching news through media, political participation, and overall ideological polarization. If voters become more polarized on racial issues, this drives them to pay more attention to politics and election campaigns. And through active political participation, voters are more ideological polarized and highly conceptualized as well. This result implies that voters learn politics through political activities. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; However, the results presented in this study have still some limitations on their implication. The time period is confined to election year. So when there is no election, people might become ignorant of politics again. Election is a big event so voters would pay extremely high attention to political issues. Thus if an election ends, they go back to their ordinary life styles and do not care as much about politics. If this is true, we cannot say that the political knowledge of voters is continuously developed and accumulated. Rather it is improved during election year and decays during off-election years.
+
+# References
